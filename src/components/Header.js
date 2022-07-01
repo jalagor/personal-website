@@ -1,6 +1,6 @@
-export default function header(props) {
+export default function Header() {
   return (
-    <div classname='header' >
+    <div classname = 'header' >
         <p>About</p>
         <p>Contact</p>
         <p>Projects</p>
