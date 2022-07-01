@@ -1,8 +1,20 @@
 .header {
     display: flex;
-    gap: 85px;
+    gap: 80px;
     flex-direction: row;
     justify-content: flex-end;
     padding: 30px;
     font-size: larger;
+    /* position: fixed;
+    top: 0; */
+
+}
+
+.headerLink {
+    display: block;
+    color: gray;
+}
+.headerLink:hover {
+    color: black;
+    text-decoration: underline;
 }
