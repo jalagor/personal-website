@@ -18,3 +18,10 @@
     color: black;
     text-decoration: underline;
 }
+
+.card {
+    display:flex;
+    padding: 30 pix;
+    border-radius: 20pix;
+    border-color: black;
+}

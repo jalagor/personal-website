@@ -2,10 +2,10 @@ export default function Header() {
   return (
     <nav> 
       <ul className = 'header' >
-        <li className = 'headerLink' >Home</li>
-        <li className = 'headerLink' >About</li>
-        <li className = 'headerLink' >Contact</li>
-        <li className = 'headerLink' >Projects</li>
+        <a className = 'headerLink' >Home</a>
+        <a className = 'headerLink' >About</a>
+        <a className = 'headerLink' >Contact</a>
+        <a className = 'headerLink' >Projects</a>
       </ul>
     </nav>
   )

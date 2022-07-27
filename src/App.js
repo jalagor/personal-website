@@ -1,11 +1,11 @@
 
 import './App.css';
 import Header from './components/Header'
-import card from './components/card'
+import Card from './components/card'
 
-function lotsOfStuff(card){
+function lotsOfStuff(){
   for(let i=0; i<10; i++){
-    return card
+    return Card
   }
 }
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-
+      <Card />
     </div>
   )
 }
