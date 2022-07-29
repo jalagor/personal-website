@@ -2,6 +2,8 @@
 import './App.css';
 import Header from './components/Header'
 import Card from './components/card'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function lotsOfStuff(){
   for(let i=0; i<10; i++){
@@ -13,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Card />
+      {/* <Card  /> */}
     </div>
   )
 }

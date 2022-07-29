@@ -1,27 +1,15 @@
-.header {
-    display: flex;
-    gap: 80px;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding: 30px;
-    font-size: larger;
-    /* position: fixed;
-    top: 0; */
-
+header{
+    display: flex; 
+    align-items: flex-end;
+    background-color: #313E50;
+    padding: 10px;
+}
+.logo {
+    height: 100px;
+    padding-left: 35px;
 }
 
-.headerLink {
-    display: block;
-    color: gray;
-}
-.headerLink:hover {
-    color: black;
-    text-decoration: underline;
-}
-
-.card {
-    display:flex;
-    padding: 30 pix;
-    border-radius: 20pix;
-    border-color: black;
+.logo img {
+    align-self: flex-start;
+    height: 100%;
 }
